@@ -1,3 +1,5 @@
+[![Build a Docker image](https://github.com/adeslatt/pb-cpg-tools-docker/actions/workflows/docker-image.yml/badge.svg)](https://github.com/adeslatt/pb-cpg-tools-docker/actions/workflows/docker-image.yml)[![Build and push a Docker image](https://github.com/adeslatt/pb-cpg-tools-docker/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/adeslatt/pb-cpg-tools-docker/actions/workflows/docker-publish.yml)
+
 # pb-cpg-tools-docker
 
 [pb-cpg-tools](https://github.com/PacificBiosciences/pb-cpg-tools) provides the tool `aligned_bam_to_cpg_scores`, which can generate site methylation probabilities from mapped HiFi reads, including probabilities for each haplotype when reads are haplotagged. pb-cpg-tools-docker provides Docker files and GitHub Action workflows for building and publishing a Docker image so that pb-cpg-tools can be used in the [sync-seq](https://github.com/adeslatt/sync-seq) workflow.
